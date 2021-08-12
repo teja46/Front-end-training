@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+.container {
+  margin: 10px 20px;
+}
+.header {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+
+.menu-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.menu-list li {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.menu-list li:hover {
+  background-color: grey;
+  border-radius: 10px;
+}
+
+.profile-section,
+.menu-items {
+  display: inline-block;
+}
+
+.profile-section {
+  float: right;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.profile-section .profile-icon {
+  width: 30px;
+  height: 30px;
+  background: grey;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+.profile-items {
+  width: 100px;
+  text-align: center;
+}
+.content {
+  margin-top: 10px;
+}
+.content-image {
+  width: 200px;
+  height: 125px;
+}
+
+.content-section {
+  text-align: center;
+  display: inline-block;
+  margin: 2px 5px;
+}
